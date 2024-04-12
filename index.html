@@ -503,14 +503,19 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+
+    <!-- Backdrop-->
+
+    <div class="backdrop is-open">
       <div class="modal">
+        <!--button-close-backdrop-->
         <button type="button" class="modal-close">
           <svg class="modal-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
         <p class="text-modal">Leave your contacts and we will call you back</p>
+        <!--form input-->
         <form class="modal-form">
           <div class="modal-form-div">
             <label for="user-name" class="modal-label">Name</label>
@@ -554,6 +559,33 @@
               </svg>
             </div>
           </div>
+          <div class="modal-form-div">
+            <label for="user-comment" class="modal-label">Comments</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="text-input"
+            ></textarea>
+          </div>
+          <!--Checkbox-->
+          <div class="checkbox-form-div">
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="modal-check"
+              value="true"
+            />
+            <svg class="modal-checkbox-icon" width="10" height="8">
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+            <label for="policy" class="check-text"
+              ><span></span> accept the terms and conditions of the
+              <a href="#" class="link-policy">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="send-button" type="submit">Send</button>
         </form>
       </div>
     </div>
