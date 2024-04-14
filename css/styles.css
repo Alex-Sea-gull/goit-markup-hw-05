@@ -833,8 +833,8 @@ img {
   fill: #f4f4fd;
 }
 
-.modal-check:checked+.span-checkbox {
-  background-color: #404bbf;
+.modal-check:checked+.check-text>.span-checkbox {
+  background-color: #404BBF;
   border: none;
   fill: #F4F4FD;
 }
