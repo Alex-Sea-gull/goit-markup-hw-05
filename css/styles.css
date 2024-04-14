@@ -803,7 +803,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
   align-items: center;
   margin: 0;
 }
@@ -831,7 +830,7 @@ img {
   fill: #f4f4fd;
 }
 
-.modal-check:checked+span {
+.modal-check:checked+.span-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
