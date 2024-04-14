@@ -716,7 +716,6 @@ img {
 
 .modal-form {
   block-size: border-box;
-  margin-bottom: 16px;
 }
 
 .modal-form-div {
@@ -770,6 +769,10 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-comment-div {
+  margin-bottom: 16px;
 }
 
 .text-input {
